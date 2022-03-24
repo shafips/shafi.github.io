@@ -1,0 +1,42 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.top-section {
+    background-color: #4D05E8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-section div{
+    text-align: center;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/******************************* under construction *********************************/
+h1 {
+    font-family: 'Avenir';
+    font-weight: 900;
+    color: #fff;
+    font-size: 233px
+}
+
+p {
+    font-family: 'Avenir';
+    font-weight: 900;
+    color: #fff;
+    font-size: 34px
+}
