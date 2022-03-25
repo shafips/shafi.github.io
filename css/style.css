@@ -30,13 +30,16 @@ h6 {
 
 /******************************* under construction *********************************/
 h1 {
+    font-family: 'Avenir-Black';
     font-weight: 900;
     color: #fff;
     font-size: 233px
 }
 
 p {
+    font-family: 'Avenir-Light';
     font-weight: 900;
     color: #fff;
-    font-size: 34px
+    font-size: 13px;
+    text-transform: uppercase;
 }
