@@ -1,0 +1,113 @@
+.main-container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.top-section {
+    height: 100vh;
+    display: flex;
+}
+
+.top-section .main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section-text-container {
+    flex-grow: 1;
+}
+
+.labels {
+    background-color: #ECF0F1;
+    color: #6C7A89;
+    font-size: 13px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+.signature-img {
+    width: 233px
+}
+
+.counter-box-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 13px;
+}
+
+.counter-box {
+    height: 233px;
+    width: 233px;
+    background-color: #4D05E8;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alatsi-Regular';
+    background-image: url('../images/plus-white.png');
+    background-repeat: no-repeat;
+    background-position: top 21px right 21px;
+    background-size: 21px;
+}
+
+.counter-box-img {
+    height: 233px;
+    width: 233px;
+    background-image: url('../images/me-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 13px;
+    background-color: #4D05E8;
+}
+
+.counter-box p {
+    text-transform: uppercase;
+}
+
+
+.work-quote-container {
+    background-color: #4D05E8;
+    border-radius: 13px;
+    padding: 55px
+}
+
+.work-quote-container img {
+    width: 233px;
+}
+
+
+.work-experience-container {
+    display: flex;
+    align-items: center;
+    padding-bottom:13px
+}
+
+.work-experience-container .work-experience-logo {
+    width: 89px;
+    height: 89px;
+    background-color: #ECF0F1;
+    border-radius: 50%
+}
+
+.work-experience-container .work-experience-text{
+    padding-left:21px
+}
+
+.made-with{
+    display: flex;
+    align-items: center
+}
+
+.made-with img{
+    width : 13px;
+    margin-left:8px
+}
+
+footer .copy-text{
+    text-align: right
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Alatsi-Regular';
+    src: url('Alatsi-Regular.eot');
+    src: url('Alatsi-Regular.eot') format('embedded-opentype'),
+         url('Alatsi-Regular.woff2') format('woff2'),
+         url('Alatsi-Regular.woff') format('woff'),
+         url('Alatsi-Regular.ttf') format('truetype'),
+         url('Alatsi-Regular.svg#AlatsiRegular') format('svg');
+}
